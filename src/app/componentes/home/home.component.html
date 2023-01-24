@@ -1,0 +1,20 @@
+<div class="login-page">
+    <div class="form">
+      <form class="login-form">
+        <h1 class="form-title">Ingreso de Datos</h1>
+        <h4 class="form-subtitle">Compra de boletos</h4>
+        <input type="text" placeholder="Nombre" [(ngModel)]=nom name="nomb"/>
+        <input type="text" placeholder="Apellido" [(ngModel)]=ape name="apel"/>
+        <input type="text" placeholder="Direccion" [(ngModel)]=dir name="dire"/>
+        <input type="text" placeholder="Celular" [(ngModel)]=cel name="celu"/>
+        <input type="text" placeholder="Edad" [(ngModel)]=age name="edad"/>
+        <button (click)="enviar()" (click)="datos()">Guardar</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+        <marquee class="footer-content">Web programada por: Nicolas Cornejo - 3AI "E1"</marquee>
+        <marquee class="footer-content">UNIDAD EDUCATIVA TECNICO SALESIANO</marquee>
+    </div>
+  </footer>

@@ -1,0 +1,73 @@
+.data-page {
+    width: fit-content;
+    padding: 8% 0 0;
+    margin: auto;
+    margin-top: -100px;
+  }
+  .fact {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .fact p {
+    font-family: sans-serif;
+    outline: 0;
+    background: #dbfaf2;
+    width: 80%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .fact button {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: cadetblue;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .fact button:hover,.form button:active,.form button:focus {
+    background: cornflowerblue;
+  }
+  .fact-title{
+    text-align: center;
+    margin-top: -10px;
+    font-family: sans-serif;
+  }
+  .fact-subtitle{
+    text-align: center;
+    margin-top: -10px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+  }
+  .footer{
+    width: 80%;
+    margin: auto;
+    margin-top: -70px;
+    padding: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .footer-content{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    font-weight: bold;
+  }
+  .ticket-info{
+    display: inline-flex
+  }

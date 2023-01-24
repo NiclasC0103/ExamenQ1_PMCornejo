@@ -1,0 +1,31 @@
+<div class="data-page">
+    <div class="fact">
+      <form class="login-form">
+        <h1 class="fact-title">Comprobante</h1>
+        <h4 class="fact-subtitle">Informacion personal y del boleto</h4>
+        <div class="ticket-info">
+            <p>Nombre: {{nom}}</p>
+            <p>Apellido: {{ape}}</p>
+            <p>Edad: {{age}}</p>
+        </div>
+        <div class="ticket-info">
+            <p>Direccion: {{dir}}</p>
+            <p>Celular: {{cel}}</p>
+            <div *ngIf="age>=18; else elseBlock"><p>Mayor: si</p></div>
+            <ng-template #elseBlock><p>Mayor: no</p></ng-template>
+        </div>
+        <div>
+            <p>Boleto: KNOTFEST</p>
+            <p>Precio: $115,00</p>
+            <p>Butacas: Por Definir</p>
+        </div>
+        <button (click)="home()">Regresar</button>
+      </form>
+    </div>
+  </div>
+  <footer>
+    <div class="footer">
+        <marquee class="footer-content">Web programada por: Nicolas Cornejo - 3AI "E1"</marquee>
+        <marquee class="footer-content">UNIDAD EDUCATIVA TECNICO SALESIANO</marquee>
+    </div>
+  </footer>
